@@ -10,7 +10,8 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    // "rootDir": "./src/",
+    // 是否生成 .d.ts 类型声明文件
+    "declaration": true,
     "outDir": "./bin/",
     "skipLibCheck": true
   }
