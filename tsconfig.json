@@ -1,0 +1,17 @@
+{
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    // "rootDir": "./src/",
+    "outDir": "./bin/",
+    "skipLibCheck": true
+  }
+}
