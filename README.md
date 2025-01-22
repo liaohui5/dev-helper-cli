@@ -40,7 +40,7 @@ dhc image -w500 -h300 --url
 4. 使用 `npm link` 命令, 将项目链接到全局, 然后就可以在终端中使用 `dhc` 命令了
 
 ```sh
-# 链接当前项目到全局
+# 链接当前项目到全局(如果是 mac 可能有权限问题, 需要 sudo)
 npm link
 
 # 取消链接
@@ -52,3 +52,13 @@ npm unlink
 ```sh
 dhc --help
 ```
+
+## 开发命令行程序好用的工具包
+
+- 解析命令行参数: [commander.js](https://www.npmjs.com/package/commander) [yargs](https://www.npmjs.com/package/yargs) [cacjs](https://www.npmjs.com/package/cac)
+
+- 命令行交互: [@inquirer/prompts](https://www.npmjs.com/package/@inquirer/prompts) [prompts](https://www.npmjs.com/package/prompts)
+
+- 命令行进度条: [cli-progress](https://www.npmjs.com/package/cli-progress)
+
+- 命令行 loading: [ora](https://www.npmjs.com/package/ora)
